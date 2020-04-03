@@ -11,14 +11,6 @@ for ch in commands:
     #perform action indicated by the character
     if ch == 'F':            #move forward
         tess.forward(50)
-    elif if ch == 'S':
-        tess.stamp()
-    elif if ch == 'D':
-        tess.dot()
-    elif if ch == 'B':
-        tess.backward(50)
-    elif if ch == 'p':
-        tess.color("purple")
     elif ch == 'L':          #turn left
         tess.left(90)
     elif ch == 'R':          #turn right
@@ -33,6 +25,14 @@ for ch in commands:
         tess.color("green")
     elif ch == 'b':          #turn blue
         tess.color("blue")
+        elif if ch == 'S':
+        tess.stamp()
+    elif if ch == 'D':
+        tess.dot()
+    elif if ch == 'B':
+        tess.backward(50)
+    elif if ch == 'p':
+        tess.color("purple")  
     else:                    #for any other character, print an error message
         print("Error: do not know the command:", ch)
 
