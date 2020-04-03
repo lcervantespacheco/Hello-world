@@ -2,26 +2,28 @@
 #Email: lcervantespacheco@gmail.com
 
 import turtle
-def doAction(t,c):
-  if c == 'F':
-    t.forward(50)
-  elif c == 'B':
-    t.backward(50)
-  elif c == 'L':
-    t.left(90)
-  elif c == 'R':
-    t.right(90)
-  elif c == 'S':
-    t.stamp()
-  elif c == '^':
-    t.up()
-elif c == 'v':
-    t.down()
-elif c == 'l':
-    t.left(45)
-elif c == 'r':
-    t.right(45)
-elif c == 'p':
-    t.pencolor("purple")
+tess = turtle.Turtle()
+commands = input ("Please enter a command string: ")
 
+for ch in commands:
+    if ch == 'F':
+      tess.forward(50)
+  elif ch == 'L':
+      tess.left(90)
+  elif ch == 'R':
+      tess.right(90)
+  elif c == '^':
+      tess.penup(90)
+  elif ch == 'v':
+      tess.pendown()
+  elif ch == 'r':
+      tess.color("red")
+  elif ch == 'g':
+      tess.color("green")
+  elif ch == 'b':
+      tess.color(blue)
+  else:
+      print"Error: do not know the command:", ch)
+      
+print ("See graphics window for your image")    
   
