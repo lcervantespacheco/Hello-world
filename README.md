@@ -25,11 +25,11 @@ for ch in commands:
         tess.color("green")
     elif ch == 'b':          #turn blue
         tess.color("blue")
-        elif if ch == 'S':
+    elif ch == 'S':
         tess.stamp()
-    elif if ch == 'D':
+    elif ch == 'D':
         tess.dot()
-    elif if ch == 'B':
+    elif ch == 'B':
         tess.backward(50)
     elif if ch == 'p':
         tess.color("purple")  
