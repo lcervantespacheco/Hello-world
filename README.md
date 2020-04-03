@@ -32,7 +32,7 @@ for ch in commands:
         tess.dot()
     elif ch == 'B':
         tess.backward(50)
-    elif ch == 'p':
+    elif ch == 'B':
         tess.color("purple")  
     else:                    #for any other character, print an error message
         print("Error: do not know the command:", ch)
