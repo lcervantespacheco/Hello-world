@@ -16,9 +16,9 @@ for ch in commands:
     elif if ch == 'D':
         tess.dot()
     elif if ch == 'B':
-        tess.backward (50)
+        tess.backward(50)
     elif if ch == 'p'
-        
+        tess.color("purple")
     elif ch == 'L':          #turn left
         tess.left(90)
     elif ch == 'R':          #turn right
